@@ -26,6 +26,8 @@ public class TestingAssignment {
 		driver.findElement(By.name("username")).sendKeys("sunita");
 		driver.findElement(By.name("password")).sendKeys("sunita1234");
 		driver.findElement(By.xpath("/html/body/div[1]/div[3]/div[1]/div/form/div[3]/input")).click();
+		driver.findElement(By.xpath("/html/body/div[1]/div[3]/div[1]/ul/li[8]/a")).click();
+		driver.quit();
 		
 	}
 
